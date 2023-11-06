@@ -93,6 +93,7 @@ public class InventoryPageTest extends BaseTest {
         Assert.assertTrue(inventoryPage.addToCartDisplayed());
     }
 
+    //asertovati da su svi elementi prikazani na stranici
     @Test
     public void verifyAllItemsAreProperlyDisplayed(){
         Assert.assertTrue(inventoryPage.allItemsHavePictures(inventoryPage.listOfItems));
